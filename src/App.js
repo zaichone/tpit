@@ -1,24 +1,23 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+import { athlete, players } from './data';
+
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+
+import Athlete from './comps/Athlete';
+import Players from './comps/Players';
 
 function App() {
+
+  console.log('data', athlete)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box>
+      <Athlete athlete={athlete}/>
+      <Players players={players}/>
+
+    </Box>
   );
 }
 
