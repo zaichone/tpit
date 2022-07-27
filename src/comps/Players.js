@@ -8,7 +8,7 @@ import player from '../assets/player.png';
 import PlayerImg from './PlayerImg';
 
 export default function Players({ players }) {
-    console.log("🚀 ~ file: Athlete.js ~ line 7 ~ Athlete ~ athlete", players)
+    //console.log("🚀 ~ file: Athlete.js ~ line 7 ~ Athlete ~ athlete", players)
     return (
         <Box sx={{position:'relative'}}>
             { /* <img src={player} alt="player" style={{position:'absolute', top:20, right:'10%', width:'35%', height:'auto'}}/> */}
