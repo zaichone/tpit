@@ -3,6 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 It is just the test landing page from Agency
+
+I use Firebase Hosting for deployment
 Preview is here [https://assesment-tpit.web.app/](https://assesment-tpit.web.app/)
 
 ## Available Scripts
